@@ -13,5 +13,8 @@ namespace Server.Yonghu
         //登录验证
         [OperationContract]
         bool yonghu_denglu(string zhanghao,string mima);
+
+        [OperationContract]
+        string say(string hua);
     }
 }
